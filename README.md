@@ -56,7 +56,7 @@ The following instructions are written for Linux-based distros.
   cd $SQDT_ROOT/
   python ./src/demo.py
   ```
-  If the installation is correct, the detector should generate this image: ![alt text](https://github.com/diganthp/pi-vision/blob/master/output%201%20.png)
+  If the installation is correct, the detector should generate this image: ![alt text](https://github.com/diganthp/pi-vision/blob/master/Images/output%201%20.png)
   
   A huge thanks to @BichenWuUCB and team for thier work on squeezeDet.
   Link to repo: [squeezeDet](https://github.com/BichenWuUCB/squeezeDet)
@@ -73,7 +73,7 @@ The following instructions are written for Linux-based distros.
 * Google Assistant Installation on Raspberry Pi. Installation of the Google Assistant can be at [Google Developers - Installation of the Google Assistant on Raspberry Pi 3](https://developers.google.com/assistant/sdk/guides/library/python/)
 
 ### Hardware Requirements:
-*
+* 
 If the tensorflow support for python 3.5 and 3.6 is released please feel free to raise an issue.
 
 ### Demo:

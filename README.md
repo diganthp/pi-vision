@@ -74,7 +74,7 @@ The following instructions are written for Linux-based distros.
 
 ### Hardware Requirements:
 * LED
-![alt text] (https://github.com/diganthp/pi-vision/blob/master/Images/led.png)
+![alt text](https://github.com/diganthp/pi-vision/blob/master/Images/led.png)
 If the tensorflow support for python 3.5 and 3.6 is released please feel free to raise an issue.
 
 ### Demo:

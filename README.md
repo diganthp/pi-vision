@@ -73,8 +73,19 @@ The following instructions are written for Linux-based distros.
 * Google Assistant Installation on Raspberry Pi. Installation of the Google Assistant can be at [Google Developers - Installation of the Google Assistant on Raspberry Pi 3](https://developers.google.com/assistant/sdk/guides/library/python/)
 
 ### Hardware Requirements:
-* LED
-![alt text](https://github.com/diganthp/pi-vision/blob/master/Images/led.png)
+* Raspberry Pi 3B.
+* LED.
+* Push Button.
+* Earphones/Headphones with 3.5mm jack (The bluetooth on the Pi 3B does'nt support audio files).
+* Power Bank (Recommended above 5000 mAh). 
+* Mini USB Microphone.
+* SD card. (Recommended 8gb class 10 sd card)
+* Pi Camera v2.1 (alternatively USB webcamera can also be used).
+* Mini Haptic Motor. 
+* Mini Cooling fan (Raspberry Pi 3B on load touches temparatures > 90 degree Celsius. Hence, it needs constant cooling).
+
+*All products excpet the Mini Haptic Motor can be brought in Amazon*
+*Mini cooling fan is brought from [Adafruit](https://www.adafruit.com/). In India it can be brought from [Thingbits](https://www.thingbits.net/).*
 If the tensorflow support for python 3.5 and 3.6 is released please feel free to raise an issue.
 
 ### Demo:

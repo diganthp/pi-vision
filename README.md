@@ -7,4 +7,54 @@ This project is based on SqueezeDet by @BichenWuUCB. To the work done by bichenW
 * python openCV
 * pillow
 * tensorflow (tensorflow 1.4 recommended)
- 
+
+## Installation:
+
+The following instructions are written for Linux-based distros.
+
+- Clone the PI VISION repository:
+
+  ```Shell
+  git clone https://github.com/diganthp/pi-vision.git
+  ```
+  Let's call the top level directory of pi-vision `$SQDT_ROOT`. 
+
+- (Optional) Setup your own virtual environment.
+
+  1. The following assumes `python` is the Python2.7 executable. Navigate to your user home directory, and create the virtual environment there.
+  
+    ```Shell
+    cd ~
+    virtualenv env --python=python
+    ```
+    
+  2. Launch the virtual environment.
+  
+    ```Shell
+    source env/bin/activate
+    ```
+    
+- Use pip to install required Python packages:
+    
+    ```Shell
+    pip install -r requirements.txt
+    ```
+## Demo:
+- Download SqueezeDet model parameters from [here](https://www.dropbox.com/s/a6t3er8f03gdl4z/model_checkpoints.tgz?dl=0), untar it, and put it under `$SQDT_ROOT/data/` If you are using command line, type:
+
+  ```Shell
+  cd $SQDT_ROOT/data/
+  wget https://www.dropbox.com/s/a6t3er8f03gdl4z/model_checkpoints.tgz
+  tar -xzvf model_checkpoints.tgz
+  rm model_checkpoints.tgz
+  ```
+
+
+- Now we can run the demo. To detect the sample image `$SQDT_ROOT/data/sample.png`,
+
+  ```Shell
+  cd $SQDT_ROOT/
+  python ./src/demo.py
+  ```
+  If the installation is correct, the detector should generate this image: ![alt text](https://github.com/diganthp/pi-vision/blob/master/output%201%20.png)
+  

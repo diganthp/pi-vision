@@ -58,8 +58,7 @@ The following instructions are written for Linux-based distros.
   ```
   If the installation is correct, the detector should run the video with object detection as shown the picture below: ![alt text](https://github.com/diganthp/pi-vision/blob/master/Images/output%201%20.png)
 
-  A huge thanks to @BichenWuUCB and team for thier work on squeezeDet.
-  Link to repo: [squeezeDet](https://github.com/BichenWuUCB/squeezeDet)
+  A huge thanks to @BichenWuUCB and team for their work on [squeezeDet](https://github.com/BichenWuUCB/squeezeDet)
 
 ## Implementation on Raspberry PI:
 ### Software Requirements:
@@ -69,20 +68,20 @@ The following instructions are written for Linux-based distros.
 * python openCV
 * pillow
 * tensorflow (tensorflow 1.1 above recommended)
-* python 3.4 (This version of python is recommended since there is no support for tensorflow 1.1 for python 3.5 or python 3.6)
+* python 3.4 (This version of python is recommended since there is no support for tensor flow 1.1 for python 3.5 or python 3.6)
 * Google Assistant Installation on Raspberry Pi. Installation of the Google Assistant can be at [Google Developers - Installation of the Google Assistant on Raspberry Pi 3](https://developers.google.com/assistant/sdk/guides/library/python/)
 
 ### Hardware Requirements:
 * Raspberry Pi 3B.
 * LED.
 * Push Button.
-* Earphones/Headphones with 3.5mm jack (The bluetooth on the Pi 3B does'nt support audio files).
+* Earphones/Headphones with 3.5mm jack (The Bluetooth on the Pi 3B doesn't support audio files).
 * Power Bank (Recommended above 5000 mAh).
 * Mini USB Microphone.
-* SD card. (Recommended 8gb class 10 sd card)
-* Pi Camera v2.1 (alternatively USB webcamera can also be used).
+* SD card. (Recommended 8gb class 10 SD card)
+* Pi Camera v2.1 (alternatively USB Web Camera can also be used).
 * Mini Haptic Motor.
-* Mini Cooling fan (Raspberry Pi 3B on load touches temparatures > 90 degree Celsius. Hence, it needs constant cooling).
+* Mini Cooling fan (Raspberry Pi 3B on load touches temperature > 90 degree Celsius. Hence, it needs constant cooling).
 
 **All products except the Mini Haptic Motor can be brought using [Amazon.com](https://www.amazon.com) or [Amazon.in](https://www.amazon.in)**
 
@@ -92,4 +91,4 @@ If the tensorflow support for python 3.5 and 3.6 is released please feel free to
 
 ### Demo:
 
-Youtube Video link: Will be updated soon. :)
+YouTube Video link: Will be updated soon. :)

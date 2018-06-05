@@ -83,7 +83,7 @@ The following instructions are written for Linux-based distros.
 * Mini Haptic Motor.
 * Mini Cooling fan (Raspberry Pi 3B on load touches temperature > 90 degree Celsius. Hence, it needs constant cooling).
 
-**All products except the Mini Haptic Motor can be brought using [Amazon.com](https://www.amazon.com) or [Amazon.in](https://www.amazon.in)**
+**All products except the Mini Haptic Motor can be brought using [Amazon.com](https://www.amazon.com) (for people residing in America or any other foreign countries) or [Amazon.in](https://www.amazon.in) (for people residing in India and nepal)**
 
 **Mini cooling fan is brought from [Adafruit](https://www.adafruit.com/). In India it can be brought from [Thingbits](https://www.thingbits.net/).**
 

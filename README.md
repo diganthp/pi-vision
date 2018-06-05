@@ -58,5 +58,6 @@ The following instructions are written for Linux-based distros.
   ```
   If the installation is correct, the detector should generate this image: ![alt text](https://github.com/diganthp/pi-vision/blob/master/output%201%20.png)
   
-  A huge thanks to @BichenWuUCB and team for thier work on squeezeDet. 
+  A huge thanks to @BichenWuUCB and team for thier work on squeezeDet.
+  
   Link to repo: [squeezeDet](https://github.com/BichenWuUCB/squeezeDet)

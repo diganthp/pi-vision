@@ -73,7 +73,8 @@ The following instructions are written for Linux-based distros.
 * Google Assistant Installation on Raspberry Pi. Installation of the Google Assistant can be at [Google Developers - Installation of the Google Assistant on Raspberry Pi 3](https://developers.google.com/assistant/sdk/guides/library/python/)
 
 ### Hardware Requirements:
-* 
+* LED
+![alt text] (https://github.com/diganthp/pi-vision/blob/master/Images/led.png)
 If the tensorflow support for python 3.5 and 3.6 is released please feel free to raise an issue.
 
 ### Demo:

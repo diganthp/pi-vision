@@ -62,7 +62,7 @@ The following instructions are written for Linux-based distros.
   Link to repo: [squeezeDet](https://github.com/BichenWuUCB/squeezeDet)
   
 ## Implementation on Raspberry PI:
-### Requirements: 
+### Software Requirements: 
 * easydict
 * joblib
 * numpy
@@ -70,8 +70,11 @@ The following instructions are written for Linux-based distros.
 * pillow
 * tensorflow (tensorflow 1.1 above recommended)
 * python 3.4 (This version of python is recommended since there is no support for tensorflow 1.1 for python 3.5 or python 3.6)
+* Google Assistant Installation on Raspberry Pi. Installation of the Google Assistant can be at [Google Developers - Installation of the Google Assistant on Raspberry Pi 3](https://developers.google.com/assistant/sdk/guides/library/python/)
 
-If the tensorflow support for python 3.5 and 3.6 is released please feel free to notify me at [Diganth prakash](diganth.prakashr@gmail.com)
+### Hardware Requirements:
+*
+If the tensorflow support for python 3.5 and 3.6 is released please feel free to raise an issue.
 
 ### Demo:
 

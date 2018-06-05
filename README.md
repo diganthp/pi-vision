@@ -71,6 +71,8 @@ The following instructions are written for Linux-based distros.
 * python 3.4 (This version of python is recommended since there is no support for tensor flow 1.1 for python 3.5 or python 3.6)
 * Google Assistant Installation on Raspberry Pi. Installation of the Google Assistant can be at [Google Developers - Installation of the Google Assistant on Raspberry Pi 3](https://developers.google.com/assistant/sdk/guides/library/python/)
 
+If the tensorflow support for python 3.5 and 3.6 is released please feel free to raise an issue.
+
 ### Hardware Requirements:
 * Raspberry Pi 3B.
 * LED.
@@ -85,9 +87,7 @@ The following instructions are written for Linux-based distros.
 
 **All products except the Mini Haptic Motor can be brought using [Amazon.com](https://www.amazon.com) (for people residing in America or any other foreign countries) or [Amazon.in](https://www.amazon.in) (for people residing in India and nepal)**
 
-**Mini cooling fan is brought from [Adafruit](https://www.adafruit.com/). In India it can be brought from [Thingbits](https://www.thingbits.net/).**
-
-If the tensorflow support for python 3.5 and 3.6 is released please feel free to raise an issue.
+**Mini cooling fan is brought from [Adafruit](https://www.adafruit.com/) (for people residing in America or any other foreign countries). In India it can be brought from [Thingbits](https://www.thingbits.net/).**
 
 ### Demo on Raspberry Pi:
 ```Shell
@@ -98,8 +98,7 @@ If the installation is correct, the detector should run the video with object de
 
 ## What's new in this project:
 ### Distance measurement of the Detected Object using triangle similarity
-The pinhole (monocular) camera generates a one-to-one relationship between the object and the image. Using this principle, we can deduce a relationship between known parameters, focal length(f), known width of the object(W),  
-the apparent width in pixels (P) and unknown parameter, distance from the camera to the object(d).
+The pinhole (monocular) camera generates a one-to-one relationship between the object and the image. Using this principle, we can deduce a relationship between known parameters, focal length(f), known width of the object(W), the apparent width in pixels (P) and unknown parameter, distance from the camera to the object(d).
 ### Alerting the Visually impaired person using the Mini Haptic motor
 The distance acts as the parameter in varying the intensity and alerting the user about the distance of the object. The adafruit mini haptic motor disc has two wires for Vcc and ground.  Its intensity can be varied by using PWM signals as shown in the figure below. ![alt text](https://github.com/diganthp/pi-vision/blob/master/Images/pwm.png)
 ### Integration of the Google Assistant running alongside the squeezeDet

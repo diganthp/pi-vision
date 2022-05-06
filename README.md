@@ -113,14 +113,10 @@ If the installation is correct, the detector should run the video with object de
 The pinhole (monocular) camera generates a one-to-one relationship between the object and the image. Using this principle, we can deduce a relationship between known parameters, focal length(f), known width of the object(W), the apparent width in pixels (P) and unknown parameter, distance from the camera to the object(d).
 
 ![alt text](https://github.com/diganthp/pi-vision/blob/master/Images/cad.PNG)
-### Alerting the Visually impaired person using the Mini Haptic motor
+### Alerting the Mini Haptic motor for the visually impaired person using
 The distance acts as the parameter in varying the intensity and alerting the user about the distance of the object. The adafruit mini haptic motor disc has two wires for Vcc and ground.  Its intensity can be varied by using PWM signals as shown in the figure below. ![alt text](https://github.com/diganthp/pi-vision/blob/master/Images/pwm.png)
 ### Integration of the Google Assistant running alongside the squeezeDet
 With all the advantages of the Google Assistant, using it with the original settings poses a few complications. The Google Assistant can be triggered using “OK GOOGLE/ HEY GOOGLE”. In a noisy surrounding, this might lead to false triggering. Also, due to high levels of background noise, it might not get triggered at all. To solve this problem, we trigger the assistant with a push button instead of a voice command. We have also added custom commands like Volume up, Volume down, Min. Volume, Max Volume, Power off and Reboot.
 The setup of the Google assistant is as shown in the picture below: ![alt text](https://github.com/diganthp/pi-vision/blob/master/Images/setup.png)
 ### Circuit Diagram
 ![alt text](https://github.com/diganthp/pi-vision/blob/master/Images/circuit.png)
-
-
-## Video Demo
-Video link will be updated soon :)
